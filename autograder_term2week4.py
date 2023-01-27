@@ -275,7 +275,7 @@ def question2a(_globals):
         print("x_values1 or y_values1 defined incorrectly")
     else:
         print("x_values1 and y_values1 defined correctly")
-        score += 1    
+        score += 1
     try:
         myx1, myy1 = np.meshgrid(np.linspace(-1.2, 1.2, 25),np.linspace(-1.2, 1.2, 25))
         assert(np.allclose(_globals["x1"], myx1))
